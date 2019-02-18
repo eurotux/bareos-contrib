@@ -640,7 +640,7 @@ class BareosOvirtWrapper(object):
             time.sleep(1)
 
         # wait some time until snapshot real complete
-        time.sleep(10)
+        time.sleep(60)
 
         bareosfd.JobMessage(
             context, bJobMessageType['M_INFO'],
